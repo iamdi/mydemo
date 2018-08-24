@@ -1,0 +1,180 @@
+/* CSS Document */
+
+.p{ margin:0; padding:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************公共样式结束****************/
+
+
+
+
+/*******************************主体style开始****************/
+
+#main{ width:1000px; margin:0 auto;}
+
+/*banner样式*/
+
+
+#banner{background-image:url(../images/bannerBg.jpg); background-repeat:no-repeat; background-position:top center;}
+
+#banner p{width:1200px; margin:0 auto;}
+
+/*为什么学习Android*/
+
+#way_Android{ background:#f5f5f5; overflow:hidden; padding-bottom:60px;}
+
+.tit_001 { font-family:"微软雅黑";text-align:center; margin:55px 0 35px;}
+
+.tit_001 h2{ font-size:45px; }
+
+.tit_001 p{ font-size:30px; margin-top:18px; color:#6bb20a;}
+
+.T_nr{ width:867px; height:402px; margin:0 auto; background:url(../images/way_bg.jpg) no-repeat; color:#3b3b3b; font-size:12px; line-height:1.5em;}
+
+.a_1,.a_3{ width:255px; padding-left:40px; float:left;}
+
+.a_2,.a_4{ width:255px; padding-right:45px; float:right; text-align:right; border:1px solid #f5f5f5;}
+
+.a_1{ padding-top:10px;}
+
+.a_2{ padding-top:8px;}
+
+.a_3{ padding-top:60px;}
+
+.a_4{ padding-top:75px; padding-right:28px;}
+
+.T_nr p.talt_s{ font-size:16px; padding-bottom:10px;}
+
+.nrong_h_1{ height:100px;}
+
+.nrong_h_2{ height:100px;}
+
+.nrong_h_3{ height:100px;}
+
+.nrong_h_4{ height:85px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.datatd td{height:19px; height:29px; line-height:29px; text-align:left;}
+.td1{width:306px;background-color:#e9eaeb;text-indent:11px;}
+.td2{width:91px;background-color:#e9eaeb;}
+.td3{width:306px;background-color:#dedfe1;text-indent:11px;}
+.td4{width:91px;background-color:#dedfe1;}
+
+
+
+
+
+/*学员最关心*/
+.zgx{ width:1000px; margin:0 auto;}
+.zgx ul{ width:820px; margin:0 auto;}
+.zgx li{ width:253px; height:153px; float:left; margin-left:20px; margin-top:20px;}
+.zgx li a{ display:block; width:253px; height:153px;}
+.zgx li a:hover{ border:2px solid #fff;}
+
+
+.ycsj{ width:1000px; margin:0 auto;}
+.ycsj h3{font-size:48px; font-weight:bold; line-height:70px; color:#333333; padding:50px; text-align:center;}
+
+.ycsj h3 span{font-size:48px; font-weight:bold; line-height:70px; color:#f0571b;}
+
+.part9-box{
+    margin:30px;
+    width:248px;
+    height:325px;
+    display:block;
+}
+.part9-box.p9b1{
+    background:url("../images/p9b1.png");
+}
+.part9-box.p9b1:hover{
+    background:url("../images/p9b1-h.png");
+}
+.part9-box.p9b2{
+    background:url("../images/p9b2.png");
+}
+.part9-box.p9b2:hover{
+    background:url("../images/p9b2-h.png");
+}
+.part9-box.p9b3{
+    background:url("../images/p9b3.png");
+}
+.part9-box.p9b3:hover{
+    background:url("../images/p9b3-h.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header p{margin-top:5px}
+.header p.fr{ position:relative;width:500px;}
+.header p.fr .tel{ position:absolute; top:5px; left:50px;}
+.header p.fr .hour24{position:absolute;top:30px; left:50px; background:none}
+.header p.fr .tous{position:absolute;top:10px; left:290px; text-align:center; line-height:25px;}
+
+/*背景色*/
+#android .navigation{background:#bd3b25}
+
+/*文字向上滚动样式*/
+
+table{cursor: pointer;overflow: hidden;}
+.table_tit { width:680px; margin:0 auto}
+.table_tit{ background:#fff;margin-bottom:5px;}
+.table_tit tr th{ border-right:1px solid #ccc; color:#AF1F24; height:14px; overflow:hidden}
+.xibao_tit{ position:relative;width:680px;  height:75px;background:url("http://www.chinatarena.com/templets/default/images/xibao_bg.jpg") no-repeat  center top;  margin:5px auto}
+.xibao_tit h3{color: #fff;
+font-size: 20px; position:absolute; left:85px; top:9px;}
+.xibao_tit a {color: #fff;
+font-size: 12px; position:absolute; left:100px; top:40px;}
+.xibao_tit p {color: #fff;
+font-size: 14px; position:absolute; left:210px; top:11px;}
+.tb_di{height:20px;width:577px;margin:0 auto;background:#fff;}
+.scroll{height:340px;width:976px;overflow:hidden; border-right:1px solid #000;}
+.scrollxb{ height:466px;}
+.scroll .xbgdxx{ width:976px; height:340px; font-size:12px; line-height:30px; color:#333;}
+.scroll .xbgdxx td{ text-align:center; background-color:#FFF; height:30px; line-height:30px; border-left:1px solid #000; border-bottom:1px solid #000; }
+.s_new_job a{color:#ff9415; text-decoration:none;}
+.s_new_job a:hover{ text-decoration:none;}
+.jyxbtable .sy_xb_tr  td{ color:#fff;font-size:14px; text-align:center; height:30px; overflow:hidden; line-height:30px; background-color:#06558f; border-right:1px solid #000; }
+.jyxbtable .sy_xb_tr  {  height:30px; }
+.jyxbtable{width:976px;margin:0 auto; border-bottom:1px solid #000;}
+
+.thank-con{width:100%;margin:0}
+.thank-con .hot{margin:12px 10px 10px 15px; width:315px; float:left; height:110px;}
+.thank-con ul { height:200px; clear:both; }
+.thank-con ul li{ float:left; width:310px;margin:0 0 0 15px;}
+.thank-con{ overflow:hidden}
+

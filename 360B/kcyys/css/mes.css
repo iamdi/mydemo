@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: outside none none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    background-color: #fff;
+}
+body {
+    color: #1e1e1e;
+    font: 13px "Microsoft YaHei","微软雅黑",Arial,Verdana,Tahoma;
+}
+h1, h2, h3, h4, h5, h6, i, em {
+    font-style: normal;
+    font-weight: normal;
+}
+input, button, select, textarea {
+    border: 0 none;
+    border-radius: 0;
+    font-family: "Microsoft YaHei","微软雅黑",Arial,Verdana,Tahoma;
+    outline: medium none;
+    vertical-align: middle;
+}
+
+.banner-con04 {
+    float: left;
+    position: absolute;
+    left: 170px;  
+	top:160px;  
+    transform: perspective(1000px) rotateY(0deg);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out 0s;
+    width: 270px;
+    z-index: 1;
+}
+
+.banner-con04.turn {
+    transform: perspective(1000px) rotateY(180deg);
+}
+.banner-con04 .m-reg {
+    backface-visibility: hidden;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    left: 0;
+    min-height: 390px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.banner-con04 .opa{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+.banner-con04 .opa h3{
+	font:20px/48px "微软雅黑"; 
+	color:#fff;
+	font-weight:bold;
+	font-style:italic;
+	padding-top:15px;
+	text-align:center;    	
+}
+.banner-con04 .opa h3 span{
+	color:#ffd800;
+}
+.banner-con04 .opa h4{
+	font:16px/24px "微软雅黑"; 
+	color:#fff;
+	font-style:italic;
+	text-align:center;    	
+}
+
+
+
+.banner-con04 .opa .m-tab {
+    width: 270px;
+}
+.banner-con04 .opa .m-tab li {
+    background: #0d0b00 none repeat scroll 0 0;
+    color: #908f8d;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 50%;
+}
+.banner-con04 .opa .m-tab li.crt {
+    background: #332a00 none repeat scroll 0 0;
+    color: #e0e0dd;
+    cursor: default;
+    font-size: 18px;
+}
+.banner-con04 .opa .m-ipts {
+    padding: 20px 20px 0;
+}
+.banner-con04 .opa .m-ipts li {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.banner-con04 .opa .m-ipts li dl {
+    width: 230px;
+}
+.banner-con04 .opa .m-ipts li dt {
+    background: #fff url("../images/sp_login.png") no-repeat scroll 0 0;
+    float: left;
+    height: 34px;
+    padding-right: 10px;
+    width: 22px;
+}
+.banner-con04 .opa .m-ipts li dd {
+    float: left;
+    width: 196px;
+}
+.banner-con04 .opa .m-ipts li .icon1 {
+    background-position: 9px 11px;
+}
+.banner-con04 .opa .m-ipts li .icon2 {
+    background-position: 9px -19px;
+}
+.banner-con04 .opa .m-ipts li .icon3 {
+    background-position: 9px -49px;
+}
+.banner-con04 .opa .m-ipts li .icon4 {
+    background-position: 9px -79px;
+}
+.banner-con04 .opa .m-ipts li.focus {
+    border: 1px solid #ffa800;
+}
+.banner-con04 .opa .m-ipts .icon-btn {
+    border: 1px solid #ffa800;
+}
+.banner-con04 .opa .m-ipts .icon-btn dt {
+    background-color: #fff9f1;
+}
+.banner-con04 .opa .m-ipts .icon-btn .icon1 {
+    background-position: -19px 11px;
+}
+.banner-con04 .opa .m-ipts .icon-btn .icon2 {
+    background-position: -19px -19px;
+}
+.banner-con04 .opa .m-ipts .icon-btn .icon3 {
+    background-position: -19px -49px;
+}
+.banner-con04 .opa .m-ipts .icon-btn .icon4 {
+    background-position: -19px -79px;
+}
+.banner-con04 .opa .m-ipts .icon-btn dd .jsCheck {
+    background-color: #fff9f1;
+}
+.banner-con04 .opa .m-ipts input {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 196px;
+}
+.banner-con04 .opa .m-ipts .u-err {
+    background: #ff4444 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    height: 0;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+    transition: height 0.5s ease 0s;
+    width: 100%;
+}
+.banner-con04 .opa .u-reg-btn {
+    background: #ff7d1d none repeat scroll 0 0;
+    border-radius: 3px;
+	border:1px dashed #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    line-height: 36px;
+    margin: 5px 20px 0;
+    text-align: center;
+    width: 230px;
+}
+.banner-con04 .opa .u-reg-btn:hover {
+    background: #ff7676 none repeat scroll 0 0;
+}
+.banner-con04 .opa .u-reg-btn:active {
+    background: #ff3434 none repeat scroll 0 0;
+}
+.banner-con04 .opa .u-txt {
+    color: #fff;
+    font-size: 13px;
+    margin: 14px 0 26px;
+    text-align: center;
+}
+.banner-con04 .opa .u-txt em {
+    color: #ffde00;
+}
+
+
+
+

@@ -1,0 +1,100 @@
+/*左侧开始*/
+
+.frame_box {
+	width: 150px;
+	height: 481px;
+	background: url(../images/left_tel_bg.png) no-repeat 0 0;
+	position: fixed;
+	top:50%;
+	left: 5px;
+	z-index: 9999;
+	margin-top: -240.5px;
+}
+
+.left_tel {
+	margin-top: 123px;
+}
+
+.left-btn {
+	width: 150px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	color: #414d6d;
+	font-size: 16px;
+	position: relative;
+	text-decoration:none;
+}
+
+.left-btn-red {
+	background: #653271;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.left-icon {
+	background: url(../images/left_tel_icon.png) no-repeat 0 0;
+	width: 19px;
+	height: 6px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+
+.left-icon-new {
+	background-position: 0 -24px;
+}
+
+.left-icon-hot {
+	background-position: 0 -12px;
+}
+
+/*右侧开始*/
+.frame_box_right {
+	width: 150px;
+	height: 481px;
+	background: url(../images/right_tel_bg.png) no-repeat 0 0;
+	position: fixed;
+	top:50%;
+	right: 5px;
+	z-index: 9999;
+	margin-top: -240.5px;
+}
+
+.right_tel {
+	margin-top: 100px;
+}
+
+.right-btn {
+	width: 110px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	margin-left:20px;
+	margin-top:5px;
+	line-height: 35px;
+	color: #414d6d;
+	font-size: 16px;
+	position: relative;
+}
+.right-btn-waite {
+	background: #ffffff;
+	color: #000;
+	border-radius: 10px;
+}
+.right-btn-red {
+	background: #E75E34;
+	color: #fff;
+	border-radius: 10px;
+}
+.right-icon {
+	background: url(../images/left_tel_icon.png) no-repeat 0 0;
+	width: 19px;
+	height: 6px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}

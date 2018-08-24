@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+body{font-family:"微软雅黑";font-size:12px;color:#333;background:#fff; line-height:24px;}
+ul,li,dl,dt,dd{list-style:none}
+img{border:0}
+em{FONT-STYLE:normal;FONT-WEIGHT:normal}
+a{TEXT-DECORATION:none;color:#333}
+a:hover{TEXT-DECORATION:none;}
+.scroll table{cursor: pointer;overflow: hidden;}
+.table_tit{ background:#fff;margin-bottom:5px;}
+.table_tit tr th{ border-right:1px solid #ccc; color:#AF1F24; height:14px; overflow:hidden}
+th {
+text-align: center;
+font-size: 14px;
+line-height: 24px;
+color: #333;
+}
+
+table td {
+font-size: 12px;
+line-height: 27px;
+color: #1594e7;
+text-align: center;color: #333;
+}
+#demo tr:hover{ background:#efefef}
+.fl{ float:left}
+.fr{ float:right;}
+.red{color:#bf1c1f; font-weight:bold }
+.gray{ color:#999}
+.clear{ height:10px; font-size:10px; clear:both}
+.layout{width:1024px; margin:0 auto}
+.header{ background:#333434; height:75px;}
+.header .logo_area{padding-left:5px;margin-top:15px;width:513px;}
+.header .logo_area h1{ width:141px; height:47px; background:url(../images/logo.png) no-repeat left top; float:left; overflow:hidden; text-indent:1000em;padding-left:15px; border-right:#B4B3B3 1px solid; float:left;white-space:nowrap;}
+.header .logo_area a{margin-left:15px;}
+.header .logo_area   strong{  color:#B4B3B3;font-size:14px; display:block; float:left;padding-left:15px; overflow:hidden}
+.header .logo_area  span{  color:#fff;font-size:16px;}
+.header   p{ float:right; color:#fff;margin-top:30px; line-height:35px; height:35px;}
+.header  p span{color:#DCDDDD; font-size:14px;padding-left:35px; display:block; height:35px; float:left;padding-right:20px;}
+.header  p  .tel{ background:url(../images/dianhua.png) no-repeat 0 0;}
+.header  p  .hour24{ background:url(../images/shouji.jpg) no-repeat 0 0; }
+.navigation{ background:#AF1F24; height:33px; line-height:33px; overflow:hidden}
+.thank-con ul li span{ float:right; color:#999}
+.navigation ul li{ width:140px; float:left; border-right:1px dotted #99999A; text-align:center}
+.navigation ul li a{ color:#E6E6E5; }
+.navigation ul li a:hover{color:#fff}
+navigation  ul .fr{ background:url(dingbu.jpg) no-repeat;}
+#android .date-course .date-java dl{height:90px; background:none;margin-bottom:0; overflow:hidden}
+
+.bsms-share  ul{padding:10px;}
+.news ul li a{ float:left; display:block; background:url(../images/list.jpg) no-repeat 0 50%;padding-left:15px;}
+.news ul li span{ float:right;width:40px; color:#999 }
+.news ul li{ clear:both; background:url(../images/xux_bg.jpg) repeat-x left bottom; height:30px; line-height:30px;_height:26px;_line-height:26px;}
+.stu-video{ width:640px;padding:20px 5px 10px 0px;}
+.thank-con .bd .textarea{ line-height:35px;}
+.tech-share{width:685px;}
+.stu-thanks,.stu-star{ height:354px;}
+.stu-copper,.stu-thanks,.company-sx{ width:705px;}
+.learn-share{width:285px;}
+.stu-star,.bsms-share{ width:305px;}
+.stu-star-con{ height:295px;padding:10px;}
+.thank-con{ width: 315px;
+margin: 10px 15px 10px 15px }
+#edu-hd{ background:none;margin-top:10px; }
+#edu-hd h3{ font-size:16px; padding-left:15px; color:#333}
+.education{ overflow:hidden;_height:490px;}
+.frindlink,.copyright{ background:#333434; overflow:hidden; display:block}
+.frindlink h6{color:#929091; padding-left:5px; line-height:35px;padding-top:10px;}
+.frindlink ul{ border-top:1px dotted #99999A;border-bottom:1px dotted #99999A; overflow:hidden;}
+.frindlink ul li { float:left;padding:0 5px; overflow:hidden;} 
+.frindlink ul li a {color:#929091;}
+.copyright{padding:20px 0 30px 0; height:100px; }
+.copyright p{ text-align:center}
+.copyright p span{margin:0 5px;color:#929091}
+ 
+#main6{background:#dadad9;}
+.kcmk_con {
+	MARGIN: 0px auto; WIDTH: 1000px;  FONT-SIZE: 12px; padding-bottom:50px; 
+}
+
+.kcmk_con TABLE{  border:0px;}
+
+.kcmk_con TABLE TD {
+	PADDING-BOTTOM: 8px;PADDING-TOP: 8px;_PADDING-BOTTOM: 8px;_PADDING-TOP: 8px;PADDING-LEFT: 10px; PADDING-RIGHT: 10px; text-align:left}
+#bt3{font-weight:bold; font-family:"方正兰亭粗黑简体"; padding-left:50px; font-size:24px;text-align:center; line-height:55px;padding-top:20px;padding-bottom:20px }
+
+#bt3 p{ color:#9b0c01;font-size:43px;}

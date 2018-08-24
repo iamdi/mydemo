@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+/******************分校下拉style***********************/
+.popup_1 {
+    display: none;
+    right:-420px;
+    line-height: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    width: 500px;
+}
+.popup_1 img {
+    left: 22px;
+    position: absolute;
+    top: 1px;
+}
+.popup_1_ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    display: block;
+    height: auto !important;
+    line-height: 22px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 8px 0 8px 8px;
+    width: 253px;
+    z-index: 2147483647;
+}
+.popup_1_ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.popup_1_ul li a,.popup_1_ul li span {
+    color: #000000;
+    display: block;
+}
+.popup_1_ul li a:hover{ text-decoration:underline}
+.tl_area {
+    padding: 40px 30px 0;
+}
+.tl_area .logo_font {
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+.header .layout{position:relative}
+.sub_school{ position:absolute; top:78px; right:30px}

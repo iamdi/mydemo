@@ -1,0 +1,64 @@
+.ban_v1{
+	background: url(../images/banner1.jpg) right bottom no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	color: #fff;
+}
+.vr_box{background: rgba(0,0,0,.6);
+	border-radius: 5px;
+}
+
+/*遮罩背景 开始*/
+.box_bj{
+	background: url(../images/lvse.jpg) right bottom no-repeat;
+}
+.box_bj0{
+	background: url(../images/lvse0.jpg) right bottom no-repeat;
+}
+.box_bj1{
+	background: url(../images/lvse1.jpg) right bottom no-repeat;
+}
+.box_bj2{
+	background: url(../images/lvse2.jpg) right bottom no-repeat;
+}
+.box_bj3{
+	background: url(../images/lvse3.jpg) right bottom no-repeat;
+}
+.box_vr0{
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: 0 4px 20px 0 rgba(255,255,255,.5);
+}
+/*遮罩背景结束*/
+.box_vr1{
+	background: url(../images/banner01.jpg) right bottom no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+.box_vr2{
+	background: url(../images/banner02.jpg) right bottom no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+
+}
+.box_vr3{
+	background: url(../images/banner001.jpg) right bottom no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+}
+.title_b{
+	color: #fff;
+}
+.title_b h2{ color: #fff;}
+.image-box img{
+	width: 100%;
+	height: 210px;
+}
+.panel_a{
+	box-shadow: 0 4px 20px 0 rgba(0,0,0,.3);
+}
+.box_img{
+	box-shadow: 0 4px 20px rgba(0,0,0,.3);
+/*	padding-top: 20px;*/
+	border-radius: 15px;
+} 

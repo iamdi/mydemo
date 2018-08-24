@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------------
+----------------------------------------------------------------------
+ @Author's huangxuejie  xiaotianjia
+ @---Date 2015-06-10
+ @---When you need to customize the new public style, 
+     please write the name of the author, 
+     and the use of the annotation style
+ @---This style belongs to public
+ @---For each page please
+----------------------------------------------------------------------
+--------------------------------------------------------------------*/
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+*{
+    *font-family: "微软雅黑",arial,"Hiragino Sans GB","Microsoft Yahei","宋体",宋体,Tahoma,Arial,Helvetica,STHeiti;
+    _font-family: "微软雅黑",arial,"Hiragino Sans GB","Microsoft Yahei","宋体",宋体,Tahoma,Arial,Helvetica,STHeiti;
+}
+body, button, input, select, textarea{
+    font-family:"Microsoft Yahei","微软雅黑", arial,"Hiragino Sans GB","宋体",宋体,Tahoma,Arial,Helvetica,STHeiti;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+em {
+    font-style: normal;
+}
+small {
+    font-size: 14px;
+}
+ul, ol {
+    list-style: outside none none;
+}
+a {
+    text-decoration: none;
+    outline: none
+}
+a:hover {
+    text-decoration: none;
+}
+legend {
+    color: #000;
+}
+fieldset, img {
+    border: 0 none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+	height: auto;
+	vertical-align: middle;
+    -webkit-transform: scale(1) rotate(0) translate3d(0,0,0);
+    transform: scale(1) rotate(0) translate3d(0,0,0);
+}
+textarea {
+    resize: vertical;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+b, strong {
+    font-weight: bold;
+}
+button, input {
+    line-height: normal;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+select{
+    -webkit-appearance: none;
+}
+.clear{
+	clear: both;
+}
+.clearfix:after {
+  font-size: 0;
+}
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.w1200{
+	width: 1200px;
+}
+.w1000{
+	width: 1000px;
+}
+@media screen and (max-width:800px){
+    body{
+    font-size:62.5%;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑","宋体",Tahoma,Arial,Helvetica,STHeiti;
+    margin:0px;
+    }
+.w1000{
+		width: 100%;
+	}
+    input[type='text']{
+        -webkit-appearance: none;
+    }
+}
+ @media screen and (min-width:320px){
+.mainCon{
+        font-size:100%}
+}
+  @media screen and (min-width:360px){
+.mainCon{
+        font-size:110%}
+}
+@media screen and (min-width:376px){
+.mainCon{
+        font-size:120%}
+}
+.w-auto-Center{
+	margin: 0 auto;
+}
+

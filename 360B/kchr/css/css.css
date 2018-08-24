@@ -1,0 +1,8 @@
+@charset "utf-8";
+/*解决IE6闪动问题 start*/
+*html{background-image:url(about:blank);background-attachment:fixed;}
+/*解决IE6闪动问题 end*/
+*{font-family:"微软雅黑";}
+/* backToTop */
+.backToTop{display:none;width:95px;height:130px;padding:5px 0;background:url(../images/backtotop.png) no-repeat;background-position:0 -20px;text-align:center;position:fixed;left:50%;margin-left:510px;bottom:72px;cursor:pointer;}
+*html .backToTop{_background:url(../images/backtotop.gif) no-repeat;_position:absolute;_bottom:"auto";}

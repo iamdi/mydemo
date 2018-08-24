@@ -1,0 +1,123 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	color: #555;
+	font-family: '微软雅黑';
+	min-width: 1400px;
+}
+a{ text-decoration: none;transition-property: background; }
+a:hover{ text-decoration: none; transition-duration: 1s;}
+h1,h2,h3,h4,h5{ margin: 0; }
+ul{ text-align: center; padding: 0;}
+ul li{ list-style: none; text-align: center;}
+.box-btn{ display: inline-block;width: 300px;height: 60px;margin: 0 15px; border-radius: 5px; background: #ED344E;transition-property: background;line-height: 60px;color: #fff;font-size: 18px;margin-top: 50px;  }
+.box-btn:hover{ background:#7D7EFF; transition-duration: 1s;color: #fff;}
+
+h5{ color: #999; display: inline-block;height: 40px;border-radius: 25px;border:1px dashed rgba(237,052,078,.5);line-height: 37px;font-size: 18px; }
+.bk-news i,.bm-hot i,.bk-info i,.hr-hot i{display: inline-block;width: 150px;height: 6px;border-top: 1px dashed rgba(237,052,078,.5);}
+/*顶部导航*/
+.top{ width: 100%; height: 100px; margin: 0 auto;}
+.cont{ width:1400px;margin:0 auto;}
+.top .box{ height: 100px;line-height: 100px;float: left;text-align: center;padding-right: 5%; }
+.top { width: 100%; }
+.top li { float: right;height: 75px; margin-left: 60px; font-size: 18px;}
+.top li:hover{ border-bottom: 5px solid #B81029;cursor: pointer; }
+
+/*底部版权*/
+.foo{ width: 100%;height: 100px;background: #333333;text-align: center;line-height: 100px;color: #fff; }
+
+/*顶部大图*/
+.banner{ width: 100%;height: 580px;background: #012D3A url(../images/banner01.jpg) center no-repeat;background-size: cover cover; }
+
+
+/*报考信息*/
+.bk-info{ width: 100%;height: 600px; }
+.bk-info h2{ line-height: 100px; }
+.bk-info h5{ width: 200px; }
+.bk-box{ width: 1200px;margin: 0 auto;padding-top: 50px;color: #666666; }
+.bk-box ul li{ width:270px; height:310px; background:#fff; float:left; margin-bottom:20px; margin-left:20px;-webkit-box-shadow:0 0 15px #e0e0e0;-moz-box-shadow:0 0 15px #e0e0e0;box-shadow:0 0 15px #e0e0e0; -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;-ms-transition: all 1s ease 0s;-o-transition: all 1s ease 0s;cursor: pointer;
+    transition: all 1s ease 0s; position:relative;top:0; border:1px solid #efefef; border-radius:5px;padding-top: 17px;}
+.bk-box ul li:hover{top:-10px;}
+.bk-title{ text-align: center;width: 100%; }
+.bk-box h4{ line-height: 50px;font-weight: bold;letter-spacing:8px; }
+.bk-box span{ display: inline-block;padding: 0 20px;font-size: 16px;line-height: 30px;text-align: left;margin-bottom: 20px; }
+.bk-box a{ display: inline-block;width: 100px;height: 30px;color: #fff;background:#ED344E;line-height: 30px; }
+.bk-box a:hover{ background:#7D7EFF;  }
+.bk-ad{ width: 100%;height: 110px; padding: 0 6%;}
+.bk-ad h2{ line-height: 75px;font-weight: bold; }
+.bk-ad span{ color: #999;font-size: 18px;font-weight: bold;}
+
+/*考试新闻列表*/
+.bk-news{ width: 100%;height: 480px;background:#F5F5F5; }
+.bk-news h2{ line-height: 100px; }
+.news-box{ width: 1200px;margin: 0 auto; }
+.news-txt{ position: relative;width: 50%;float: left; }
+.bk-news h5{ width: 400px;}
+.text-cont{ position: absolute;top: 50px;/*background:#fff;*/width: 70%;height: 165px;left: 15%;text-align: left;font-size: 16px;padding-top: 20px; }
+.text-cont span{ color: red;margin: 0 10px; }
+.text-cont p{ display: inline-block; }
+
+/*因材施教学习计划*/
+.bm-hot{ width: 100%; background:#F5F5F5;padding:50px 6%; }
+.bm-hot h2{ line-height: 100px; }
+.bm-hot h5{ width: 300px;}
+.bm-box{ width: 1200px;margin:0 auto; position: relative;}
+.bm-hot ul li{ width:490px; height:110px; background:#fff; float:left; margin-bottom:20px; -webkit-box-shadow:0 0 15px #e0e0e0;-moz-box-shadow:0 0 15px #e0e0e0;box-shadow:0 0 15px #e0e0e0; cursor:pointer;-webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;-ms-transition: all 1s ease 0s;-o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s; position:relative;top:0; border:1px solid #efefef; border-radius:5px;padding-top: 17px;}
+.bm-hot ul li:nth-of-type(odd){ margin-right: 200px; }
+.bm-hot ul{ padding: 0;margin-top: -10px;}
+.bm-hot ul li:hover{top:-10px;}
+.bm-hot span{display: table-cell;vertical-align: middle;width: 300px;color: #999;font-size: 14px;line-height: 26px;}
+.bm-txt{ width: 275px;float: left;text-align: left; }
+.vs{ position: absolute; left: 49.5%;bottom: 7%;height: 360px;border-right: 1px dashed rgba(237,052,078,.5);}
+.inco{width: 120px;float: left; }
+
+/*表单通栏*/
+.fm-box,.fm2{ width: 100%;height: 240px;background:#012F2C;padding-top: 150px;}
+.fm-box{ background: #002C39 url(../images/fm1.jpg) center no-repeat;background-size: cover cover; }
+.fm2{height: 300px;padding-top: 200px; background: #5aabe3 url(../images/fm2.jpg) center no-repeat;background-size: cover cover;}
+
+/*直播面授录播*/
+.hr-hot{ width: 100%; padding-bottom: 50px;}
+.hr-hot h2{ line-height: 100px; }
+.hr-hot h5{ width: 300px; }
+.hr-box{ width: 1200px;margin:0 auto; }
+.hr-box ul li{ display: inline-block; width: 380px; float: left;margin-right: 10px;text-align: left;background:#F8F8F8;border: 1px solid rgba(227,228,231,.7);
+-webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;-ms-transition: all 1s ease 0s;-o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s; position:relative;top:0;}
+.hr-box ul li:hover{ top: -10px; }
+.hr-box li div{ padding: 10px 5px; }
+.hr-box img{ width: 100%; }
+.hr-hot h3{ line-height: 40px;color: #333333; }
+.hr-box p{ font-size: 16px; color: #999; }
+
+/*考试密卷模块*/
+.ko-hr{ position: relative;width: 100%;height: 800px; }
+.ko-img{ width: 100%;background-color: #6F5EEA; }
+.ko-box{ position: absolute; width: 1200px;height: 500px;box-shadow:0 16px 100px -20px rgba(0,0,0,.2);left: 50%;margin-left:-600px; top:215px; background-color: #fff;border-radius: 10px;  }
+.ko-box ul li{display: inline-block; width: 300px;height: 500px;float: left;padding-top: 60px;color:#999; }
+.ko-box ul li:nth-child(2){ border-right: 1px solid rgba(227,228,231,.7); }
+.ko-box ul li:nth-of-type(even){ border-left: 1px solid rgba(227,228,231,.7); }
+.ko-box li:nth-child(1) span{ font-size: 80px;color:#5AABE3;  }
+.ko-box li:nth-child(2) span{ font-size: 80px;color:#FE891F;  }
+.ko-box li:nth-child(3) span{ font-size: 80px;color:#00DCC3;  }
+.ko-box li:nth-child(4) span{ font-size: 80px;color:#7CDC00;  }
+.ko-hr h2{ line-height: 100px; }
+.ko-hr p{ font-size: 16px;padding: 0 20px; line-height: 35px;}
+.ko-box a{ display: inline-block;width: 100px;height: 35px;line-height: 35px;color:#fff;background:#ED344E; margin-top: 40px;  }
+.ko-box a:hover{ background:#7D7EFF;  }
+ 
+.hr-ot{ width: 100%; background:#F5F5F5;padding-bottom:50px; }
+.ot-box{ width: 1200px;margin: 0 auto; }
+.ot-box h2{ line-height: 100px; }
+.ot-txt{position: relative; width: 1000px;box-shadow: 0 10px 30px rgba(0,0,0,.1); height: 300px;margin: 0 auto;background:#fff;}
+.ot-txt li{ display: inline-block;width: 50%;height: 200px;float: left; margin-top: 50px;}
+.ot-txt li:nth-child(1){border-right:1px dashed rgba(227,228,231,.9);}
+.ot-txt p{ display: inline-block;width: 75%; font-size: 16px;text-align:left;line-height: 30px;color: #999;}
+.ot-txt a{ font-size: 18px;font-weight: bold; }
+.ot-txt .ot-btn{ display: inline-block; width: 150px; height: 35px; line-height: 35px;margin-top: 5px; color: #fff;font-weight: 500;font-size: 16px;background: #ED344E; }
+.ot-btn:hover{ background:#7D7EFF; }
+

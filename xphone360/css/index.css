@@ -1,0 +1,77 @@
+body{
+	min-width: 415px;
+	max-width: 768px;
+	margin: 0 auto;
+	color: #4d4c4c;
+}
+a{ color: #4d4c4c; }
+.top-img img{
+	width: 100%;
+	min-width: 415px;
+	max-width: 768px;
+}
+
+/*============导航模块*==================*/
+.container-fluid{ padding: 0; }
+.nav-list{
+	text-align: center;
+	padding-top: 1.5em;
+}
+.nav-list span{ color: #f84f05;font-size: 6em;}
+.nav-list p{ font-size: 1.5em;line-height: 4em; }
+@media screen and (max-width: 500px){
+	.nav-list p{ font-size: 1em; }
+	.nav-list span{ color: #f84f05;font-size: 4em;}
+}
+
+/*========================报考条件模块====================*/
+#tiaojian{ text-align: center; }
+#tiaojian span{ font-size: 6em;color:#0583fb;margin-top: 0.2em; }
+#tiaojian p{ font-size: 1.5em;line-height: 4em; }
+@media screen and (max-width: 500px){
+	#tiaojian p{ font-size: 1em; }
+	#tiaojian span{font-size:4em;color: #0583fb;}	
+}
+#tiaojian .list p{ line-height: 1.5em;}
+.list-bor{
+	border-bottom: 1px solid #cdcccc;
+	padding-top: 1em;
+}
+.li-btn{ display: inline-block;background: #0583fb;padding:0 0.2em;color: #fff; }
+/*=========================报考指南==================*/
+
+.zhi-nan{ position: relative;margin: 0 auto;width: 415px; padding:0;text-align: center;}
+.zhinan{ padding-left: 5px;  }
+.zhinan li{
+	display: block;
+	list-style: none;
+	float: left;
+	width: 103px;
+	height: 103px;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	border:1px solid #cdcccc;
+	line-height: 30px;
+	padding-top: 2em;
+}
+.zhinan li span{font-size: 2em;color: #9B9B9B;}
+.zhinan .zhi-on{ margin-right: 203px; }
+.zhi-box{ position: absolute;width: 203px;height: 102px; background:#D64741;left: 108px;top: 102px;text-align: center;
+	color: #fff;
+ }
+ .zhi-box p{line-height: 103px;font-size: 1em;}
+@media screen and (min-width: 550px){
+	.zhinan,.zhi-nan{ width: 550px;margin: 0 auto;padding:0; }
+	.zhinan li{width: 138px;height: 138px;line-height: 60px;line-height: 40px;font-size: 1.5em;}
+	.zhinan .zhi-on{ margin-right: 273px; }
+	.zhi-box{width: 273px;height: 136px;left: 138px;top: 138px;}
+	 .zhi-box p{line-height: 138px;font-size: 1.5em;}
+}
+
+/*=====================边工作边学习===================*/
+.dd-box .col-xs-7{ padding-top: 10px; }
+.dd-box p{ font-size: 1.5em;padding-top: 5%;}
+.dd-box img{margin-top: 5%;}
+@media screen and (max-width: 550px){
+	.dd-box p{ display: block; font-size: 1.2em; }
+}

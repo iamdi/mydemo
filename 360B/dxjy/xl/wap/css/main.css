@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{-webkit-box-sizing:border-box;-moz-box-sizing: border-box;box-sizing: border-box; margin:0; padding:0;}
+html,body{width: 100%;overflow: auto;font-family: Microsoft Yahei,sans-serif;}
+body{width:100%; font-family:"微软雅黑"; margin:0 auto; max-width:6.4rem; overflow:auto; background:#fff;}
+ A:link { cursor:pointer }
+ul,li,ol{ list-style:none;}
+.clear{ clear:both;}
+.title{ width:auto; height:auto; overflow:hidden;}
+.title img{width:6.4rem; height:1.33rem; display: block}
+
+.head{ width:auto; height:0.8rem; background:#b83f3f;}
+.head .logo{ width:3rem; float:left;}
+.head .logo img{ width:2.6rem; height:0.8rem; display:block; margin-left:0.25rem}
+.head .nav{ width:3.3rem; float:right;}
+.head .nav ul{}
+.head .nav ul li{ float:left;}
+.head .nav ul li a{ font-size:0.35rem; line-height:0.8rem; display:block; color:#fff}
+
+.banner{ width:auto; height:auto; overflow:hidden}
+.banner a img{ width:6.4rem; height:4.2rem; display:block;}
+
+.black{width:auto; height:auto; overflow:hidden; padding:0.3rem 0}
+.black a img{ width:6.4rem; height:3.2rem; display:block;}
+
+.fangshi{width:auto; height:auto; overflow:hidden;}
+.fangshi_1{width:auto; height:auto; overflow:hidden; padding:0.3rem 0}
+.fangshi_1 .zuo_1{ float:left; margin-left:0.3rem; margin-top:0.3rem}
+.fangshi_1 .zuo_1 img{ width:1.97rem; height:2.11rem; display:block;}
+.fangshi_1 .you_1{ float:right; margin-right:0.2rem;}
+.fangshi_1 .you_1 h6{ font-size:0.4rem; color:#bd1515; font-weight:bold;}
+.fangshi_1 .you_1 p{ font-size:0.26rem; color:#252525; padding:0.15rem 0}
+.fangshi_1 .you_1 .btn_1{ width:2.06rem; height:0.38rem; background:#bd1515;}
+.fangshi_1 .you_1 .btn_1 a{ font-size:0.21rem; text-align:center; line-height:0.38rem; color:#fff; display:block;}
+
+
+.fangshi_2{width:auto; height:auto; overflow:hidden;}
+.fangshi_2 .zuo_2{ float:left; margin-left:0.2rem;}
+.fangshi_2 .zuo_2 h6{ font-size:0.4rem; color:#bd1515; font-weight:bold;}
+.fangshi_2 .zuo_2 p{ font-size:0.26rem; color:#252525; padding:0.15rem 0}
+.fangshi_2 .zuo_2 .btn_2{ width:2.06rem; height:0.38rem; background:#bd1515;}
+.fangshi_2 .zuo_2 .btn_2 a{ font-size:0.21rem; text-align:center; line-height:0.38rem; color:#fff; display:block;}
+.fangshi_2 .you_2{ float:right; margin-right:0.3rem; margin-top:0.3rem}
+.fangshi_2 .you_2 img{ width:1.97rem; height:2.11rem; display:block;}
+
+
+.fangshi_3{width:auto; height:auto; overflow:hidden; padding:0.3rem 0}
+.fangshi_3 .zuo_3{ float:left; margin-left:0.3rem; margin-top:0.3rem}
+.fangshi_3 .zuo_3 img{ width:1.97rem; height:2.11rem; display:block;}
+.fangshi_3 .you_3{ float:right; margin-right:0.2rem;}
+.fangshi_3 .you_3 h6{ font-size:0.4rem; color:#bd1515; font-weight:bold;}
+.fangshi_3 .you_3 p{ font-size:0.26rem; color:#252525; padding:0.15rem 0}
+.fangshi_3 .you_3 .btn_3{ width:2.06rem; height:0.38rem; background:#bd1515;}
+.fangshi_3 .you_3 .btn_3 a{ font-size:0.21rem; text-align:center; line-height:0.38rem; color:#fff; display:block;}
+
+.fangan{width:auto; height:auto; overflow:hidden;}
+.fangan ul{width:auto; height:auto; overflow:hidden;}
+.fangan ul li{ float:left; margin-left:0.28rem; margin-top:0.25rem;}
+.fangan ul li a img{ width:2.8rem; height:1.65rem; display:block;}
+
+.btn{ width:2.72rem; height:0.42rem; background:#ac2121; margin:0.4rem auto 0.5rem;}
+.btn a{ font-size:0.26rem; color:#fff; line-height:0.42rem; text-align:center; display:block;}
+
+.zhuanye{width:auto; height:auto; overflow:hidden;}
+.zhuanye ul{width:auto; height:auto; overflow:hidden;}
+.zhuanye ul li{ width:1.41rem; height:0.44rem; background:#fcd8d8; float:left; margin-left:0.15rem; margin-top:0.25rem;}
+.zhuanye ul li a{ font-size:0.25rem; text-align:center; line-height:0.44rem; color:#bd1515; display:block;}
+
+.wenti{width:auto; height:auto; overflow:hidden;}
+.wenti ul{width:auto; height:auto; overflow:hidden;}
+.wenti ul li{ border:2px solid #ac2121; width:6rem; height:0.73rem; margin:0.3rem auto;}
+.wenti ul li p{ font-size:0.23rem; line-height:0.73rem; color:#252525; float:left; margin-left:0.25rem;}
+.wenti ul li nav{ width:1rem; height:0.72rem; background:#ac2121; display:block; float:right}
+.wenti ul li nav a{font-size:0.2rem; color:#fff; text-align:center; display:block;}
+.wenti ul li nav a img{width:0.4rem; height:0.35rem; display:block; text-align:center; margin:0.05rem auto 0;}
+
+.youshi{width:auto; height:auto; overflow:hidden;}
+.youshi ul{width:auto; height:auto; overflow:hidden;}
+.youshi ul li{ float:left; margin-left:0.6rem; margin-top:0.4rem}
+.youshi ul li a img{ width:2.3rem; height:2.95rem; display:block;}
+.youshi p{ font-size:0.25rem; color:#252525; text-align:center; line-height:0.5rem; padding:0.3rem 0 0}
+
+.about{width:auto; height:auto; overflow:hidden; }
+.about p{ font-size:0.25rem; color:#252525; text-align:center; padding:0.3rem 0; line-height:0.4rem;background:url(../images/bg.jpg) no-repeat center; background-size:6.4rem 3.85rem;}
+.about p span{ color:#ac2121;}
+
+.foot{width:auto; height:auto; overflow:hidden;}
+.foot a img{ width:6.4rem; height:2.75rem; display:block;}
+
+.foot_1{width:auto; height:auto; overflow:hidden;}
+.foot_1 p{ font-size:0.18rem; color:#252525; text-align: center}
+
+.weixin{ position:fixed; bottom:0; right:0}
+.weixin img{ display:block; width:0.8rem; height:0.8rem;}
+
+
+
+
+
+

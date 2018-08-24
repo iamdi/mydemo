@@ -1,0 +1,393 @@
+body{
+    background: #ffffff;
+    color: #333333;
+}
+.w100{
+    width: 100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.orange{
+    color: #E64A20;
+}
+.padding_t_b{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.head{
+    font-size: 2.4em;
+    font-weight: bold;
+    text-align: center;
+}
+.margin-l{
+    margin-left: 10%;
+}
+.btn{
+    font-size: 1.4em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #E64A20;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+}
+/*============================*/
+.logo{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.logo img{
+    width: 50%;
+}
+/*2000元助学金*/
+.main1{
+    background: #F0F0EE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main1_box{
+    width: 90%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.apply{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.apply span{
+    font-size: 1.4em;
+    margin-right: 2%;
+}
+.apply span i{
+    font-weight: 900;
+    margin-right: 1%;
+    font-style:normal;
+}
+.main1 .btn{
+    width: 52%;
+    margin: 15px auto 0 auto;
+}
+/*2017年广东成人自考 必知信息查询*/ 
+.main2{
+    background: url("../images/bg01.jpg") no-repeat center;
+    background-size: cover;
+}
+.main2_box .message{
+    width: 90%;
+    margin: 20px auto 10px auto;
+}
+.main2_box .message ul li{
+    float: left;
+    width: 28%;
+    font-size: 1.5em;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: #E64A20;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.main2_box .message ul li:hover{
+    opacity: 1;
+}
+.main2_box .btn{
+    width: 60%;
+    margin: 0 auto;
+}
+/*重要通知*/
+.main3_box .notice{
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto 5px auto;
+    font-size: 2.3em;
+    text-align: center;
+    color: #ffffff;
+    background: #E64A20;
+    font-weight: bold;
+}
+.main3_box .date{
+    width: 52%;
+    height: 60px;
+    line-height: 60px;
+    margin: 25px auto 0 auto;
+}
+.main3_box .date span{
+    display: inline-block;
+    float: left;
+}
+.main3_box .date .month,.main3_box .date .day{
+    width: 30%;
+    font-size: 4.2em;
+    font-weight: bold;
+    text-align: center;
+    background: #333333;
+    color: #ffffff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.main3_box .date .date_tit{
+    width: 20%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.main3_box .delay{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.main3_box .btn{
+    width: 52%;
+    margin: 0 auto;
+}
+/*2017年热门报考院校*/
+.main4{
+    background: url("../images/bg02.jpg") no-repeat center;
+    background-size: cover;
+}
+.main4_box .school{
+    width: 80%;
+    margin: 25px auto 0 auto;
+}
+.main4_box .school ul li{
+    float: left;
+    width: 45%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.main4_box .school ul li .btn{
+    width: 80%;
+    height: 30px;
+    line-height:30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 70%;
+}
+.main4_box .btn{
+    width: 52%;
+    margin:10px auto 0 auto;
+}
+/*2017年热门报考专业*/
+.main5_box .hot{
+    width:90%;
+    margin: 25px auto 0 auto;
+}
+.main5_box .hot .book{
+    width:37%;
+}
+.main5_box .hot .major{
+    width:58%;
+    margin-left: 5%;
+}
+.main5_box .hot .major .major_h1{
+    font-size: 1.6em;
+    font-weight: bold;
+ }
+.main5_box .hot .major .major_h2{
+    font-size: 0.9em;
+}
+.main5_box .hot .major .major_tit{
+    font-size: 0.9em;
+    color: #888888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main5_box>.btn{
+    width: 52%;
+    margin: 25px auto 0 auto;
+}
+/*学历提升 就选上市机构，学历领取有保障*/
+.main6{
+    background: url("../images/bg03.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 115px;
+}
+/*真材实料大机构 恒企教育为您保驾护航*/
+.main7{
+    background: #F0F0F0;
+}
+.main7_box .tit{
+    text-align:center;
+    font-size:1em;
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+.main7_box .ji_gou{
+    width: 90%;
+    margin: 0 auto 25px auto;
+}
+.main7_box .ji_gou .hqjy .hqjy_tit{
+    background: #27AE61;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.main7_box .ji_gou .hqjy_l,
+.main7_box  .ji_gou .other .other_r{
+    width: 55%;
+}
+.main7_box .ji_gou .hqjy_l>div{
+    background: url("../images/gou.png") no-repeat;
+    background-size: 8%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10%;
+    font-size: 0.9em;
+}
+.main7_box .ji_gou .hqjy_r,
+.main7_box  .ji_gou .other .other_l{
+    width: 45%;
+}
+.main7_box .ji_gou .hqjy_r>div{
+    padding-top: 2px;
+}
+.main7_box  .ji_gou .other .other_tit{
+    background: #888888;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.main7_box  .ji_gou .other .other_r>div{
+    background: url("../images/cha.png") no-repeat;
+    background-size: 8%;
+    padding-bottom: 2px;
+    padding-left: 10%;
+    font-size: 0.9em;
+    margin-left: 5%;
+}
+.main7_box .btn{
+    width: 52%;
+    margin: 0 auto;
+}
+/*优质学习解决方案 恒企自考服务让学习一爽到底*/
+.main8{
+    background: #DEECE6;
+}
+.main8_box .tit{
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main8_box .plan{
+    margin-bottom: 25px;
+}
+.main8_box .btn{
+    width: 52%;
+    margin: 0 auto;
+}
+/*.main8_box .plan>div{*/
+    /*background: #ffffff;*/
+    /*height: 36px;*/
+    /*line-height: 36px;*/
+    /*border-radius: 36px;*/
+    /*-webkit-border-radius: 36px;*/
+    /*-moz-border-radius: 36px;*/
+    /*font-size: 0.9em;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+/*.main8_box .plan>div>span{*/
+    /*display: inline-block;*/
+    /*width: 10%;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*text-align: center;*/
+    /*background: #E64A20;*/
+    /*color: #ffffff;*/
+    /*border-radius: 50%;*/
+    /*-webkit-border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*margin-left: 1%;*/
+    /*margin-right: 2%;*/
+    /*font-size: 1.1em;*/
+/*}*/
+
+/*全国261所分校在您身边 圆你学历梦*/
+.main9{
+    background: #F0F0F0;
+}
+.main9_box .map{
+    margin-bottom: 25px;
+}
+.main9_box .btn{
+    width: 52%;
+    margin: 0 auto;
+}
+/*底部版权*/
+.foot{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.foot>div{
+    text-align: center;
+    font-size: 1em;
+}
+.side{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #333333;
+}
+.side>div{
+    float: left;
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.act{
+    background: #E64A20;
+}
+.side>div>span>img{
+    width:15%;
+    margin-right: 5%;
+}
+.side>div.zhuan_ye{
+    border-left: 1px solid #8F8F8F;
+    border-right: 1px solid #8F8F8F;
+}
+.side>div.zhuan_ye>span>img{
+   margin-bottom: 5px;
+}
+.side>div.money>span>img{
+    width:20%;
+    margin-bottom: 3px;
+}
